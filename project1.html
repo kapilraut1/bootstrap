@@ -1,0 +1,389 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        section{
+            padding 60px 0;
+        }
+        </style>
+</head>
+<body>
+    <!--navbar-->
+<nav class="navbar navbar-expand-lg bg-light navbar-light">
+  <div class="container-xxl">
+    <a class="navbar-brand" href="#intro">
+        <div class="fw-bolder">
+          <i class="bi bi-book-half"></i> KR book
+        </div></a>
+        <!--toggle button-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#topic">About the book</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#reviews">Reviews</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link" href="#pricing">Prices</a>
+        </li>
+            <li class="nav-item d-ms-2 none d-md-inline">
+                <a class="btn btn-secondary btn-outine-success" href="#pricing">Buy now</a>
+</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <!--introduction-->
+   <section id="intro" class="py-5">
+    <div class="container-lg">
+<div class="row justify-content-center align-items-center">
+    <div class="col-md-5 text-center text-md-start">
+        <h1>
+            <div class="display-2">The Kaps Coding</div>
+            <div class="display-5 text-muted">Your coding skills</div>
+        </h1>
+   <p class="lead">Hello guys i am just learning </p>
+   <a href="#pricing" class="btn btn-success btn-lg rounded-pill">Buy now</a>
+   <br>
+   <br>
+   <!--offcanvas-->
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+    Our other books
+  </button>
+  
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel" fw="bolder">Our books</h5>
+      <!--btn-close for X-->
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body text-sm-start">
+      <div class="lead">
+        Here are the lists of some of our books.
+        <ul>
+          <li><a href="#">Kaps Raut-The success</a></li>
+          <li><a href="#">Kaps Raut-The winner</a></li>
+          <li><a href="#">Kaps Raut-The determination</a></li>
+          <li><a href="#">Kaps Raut-The fighting spirit</a></li>
+          <li><a href="#">Kaps Raut-The life rocks</a></li>
+          <li><a href="#intro">Kaps Raut-Hell Ya!</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Know about the author
+  </a>
+
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Kapil is my name.</a></li>
+    <li><a class="dropdown-item" href="#">Coding is my aim!</a></li>
+    <li><a class="dropdown-item" href="#">Let's go </a></li>
+     <li><a class="dropdown-item" href="#">Practice is the key.</a></li>
+  </ul>
+
+</div>
+    </div>
+  </div>
+    </div>
+    <div class="col-md-5 text-center d-none d-md-block">
+        <img class="image-fluid" width=53% src="harrypotter.png" class="hover-shadow" alt="This is the image of book">
+    </div>
+</div>
+    </div>
+   </section>
+    </div>
+
+    <!--cards-->
+    <section id="pricing" class="pt-5 bg-light" >
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Price plans <i class="bi bi-currency-dollar"></i></h2>
+                <p class="lead text-muted">You can choose the plans as your requirements</p>
+
+            <div class="row my-5 align-items-center justify-content-center">
+                <div class="col-9 col-lg-4 col-xl-3">
+                    <div class="card text-center">
+  <div class="card-header fw-bolder">
+    The most demanding
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Your luxurious plan</h5>
+    <p class="card-text">The plan will provide you special attention</p>
+    <a href="#" class="btn btn-primary">$12.99</a>
+  </div>
+  <div class="card-footer text-body-secondary">
+    Enjoy!
+  </div>
+</div>
+                </div>
+                        <div class="col-9 col-lg-3 my-1">
+                    <div class="card text-center">
+  <div class="card-header fw-bolder">
+    The most trending
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Your sweet plan</h5>
+    <p class="card-text">The plan will provide you 24-hour assistance</p>
+    <a href="#" class="btn btn-primary">$14.99</a>
+  </div>
+  <div class="card-footer text-body-secondary">
+    Loved!
+  </div>
+</div>
+                </div>
+                        <div class="col-9 col-lg-3 my-1">
+                    <div class="card text-center">
+  <div class="card-header fw-bolder">
+    The most popular
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Your sugar plan</h5>
+    <p class="card-text">The plan will provide you the path of success.</p>
+    <a href="#" class="btn btn-primary">$9.99</a>
+  </div>
+  <div class="card-footer text-body-secondary">
+    Learn!
+  </div>
+</div>
+                </div>
+            </div>
+            </div>
+        </div>
+</section>
+<!--topics and accordance-->
+<section id="topic">
+  <div class="container-lg">
+    <div class="text-center">
+      <h2> Inside the book....</h2>
+      <p class="lead muted">Lets look the book at a glance.....</p>
+  </div>
+<div class="row my-5 g-5 justify-content-around align-items-center">
+  <div class="col-lg-4 col-6">
+    <img src="kindle.png" alt="E-book" class="img-fluid">
+
+  </div>
+  <div class="col-lg-6">
+  <div class="accordion" id="Chapters">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#Chapter1" aria-expanded="true" aria-controls="Chapter1">
+          Chapter 1-The chapter begins.
+        </button>
+      </h2>
+      <div id="Chapter1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#Chapters">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go withinthough the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Chapter2" aria-expanded="false" aria-controls="Chapter2">
+          Chapter 2-The rise of success.
+        </button>
+      </h2>
+      <div id="Chapter2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#Chapters">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Chapter3" aria-expanded="true" aria-controls="Chapter3">
+           Chapter 3- The way to the justice.
+        </button>
+      </h2>
+      <div id="Chapter3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#Chapters">
+        <div class="accordion-body">
+          <strong>This is one of the important chapters</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Chapter4" aria-expanded="true" aria-controls="Chapter4">
+           Chapter 4- The continuous practice.
+        </button>
+      </h2>
+      <div id="Chapter4" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#Chapters">
+        <div class="accordion-body">
+          <strong>Practice makes man perfect.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+  </div>
+</div>
+</div>
+
+</h2>
+</section>
+<!--Reviews and list group -->
+<section id="reviews" class=" bg-light py-5">
+  <div class="container-lg">
+    <div class="text-center">
+      <h2><i class="bi bi-chat-square"></i> Reviews from the buyers</h2>
+       <p class="lead text-muted">In this section you look what do our buyers think about the book.</p>
+       <div class="row justify-content-center">
+        <div class="col-lg-5 col-my-2>
+<div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action " aria-current="true">
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">The best book. loved it.</h5>
+      <small>1 day ago</small>
+    </div>
+    <p class="mb-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit libero, minima pariatur sint dolore harum nobis vitae et, suscipit repellat voluptas saepe, quae qui quam deleniti commodi odio dolorum optio?</p>
+    <small class="text-muted">Alus Teres.</small>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action">
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+  
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">It is waste of money.</h5>
+      <small class="text-muted">3 days ago</small>
+    </div>
+    <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laborum consectetur expedita omnis? Enim sed tenetur alias voluptates quidem aliquam beatae ullam obcaecati tempora doloribus asperiores, excepturi porro consectetur necessitatibus?</p>
+    <small class="text-muted">Ramiz Johnson.</small>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action">
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">I loved the book. It inspired me to do something in my life.</h5>
+      <small class="text-muted">a week ago</small>
+    </div>
+    <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti reiciendis labore itaque eius aspernatur modi cum a sed aliquam! Minima ipsa aliquam hic accusantium vitae, nobis laborum rerum! Sit, quidem?</p>
+    <small class="text-muted">Tom Carter.</small>
+  </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--contact form-->
+<section id="contact" class="py-5">
+  <div class="container-lg">
+    <div class="text-center">
+      <h2>Get in touch with us</h2>
+       <p class="lead text-muted">Fill the below form to reach to us.</p>
+        </div>
+        <div class="row justify-content-center my-5">
+          <div class="col-lg-6">
+            <form>
+            <label for="name" class="form-label">Name:</label>
+            <div class="input-group mb-3">
+  <span class="input-group-text"> <i class="bi bi-person-fill"></i> </span>
+            <input type="text" class="form-control" id="name" placeholder="eg.Kaps">
+            <!--tooltip-->
+            <span class="input-group-text">
+              <span class="tt" data-bs-placement="bottom" title="Your name.">
+                <i class="bi bi-question-circle text-muted"></i>
+              </span>
+            </span>
+              
+            </div>
+            <label for="email" class="form-label">Email address:</label>
+               <div class="input-group mb-3">
+  <span class="input-group-text"> <i class="bi bi-envelope"></i> </span>
+            <input type="email" class="form-control" id="email" placeholder="eg.kaps@gmail.com">
+            <span class="input-group-text">
+              <span class="tt" data-bs-placement="bottom" title="Pretty self explanatory really...">
+                <i class="bi bi-question-circle text-muted"></i>
+              </span>
+            </span>
+        
+        
+               </div>
+            <label for="options" class="form-label">Choose the topic </label>
+            <select name="topic" id="options" class="form-select">
+              <option value="options" selected>Investment</option>
+              <option value="options">Banking</option>
+              <option value="options">Business</option>
+              <option value="options">Other</option>
+
+            </select>
+
+          <div class="form-floating mt-4 mb-2">
+          <textarea id="query" class="form-control" style="height:150px "></textarea>
+          <label for="query" class="form-label">Your words.</label>
+          </div>
+          </form>
+          <div class="text-center">
+            <button class="btn btn-success" type="submit">Submit</button>
+          </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!--using modal-->
+<section class="bg-light py-5">
+  <div class="container-lg">
+    <div class="text-center">
+         <h2>The modal</h2>
+          <p class="lead">The website is a great thing. The base of the web-development is the html,css, and javascript.</p>
+      <div class="row justify-content-center my-5">
+        <div class="col-md-8">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iModal">
+  Your ideas.
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="iModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" action="kapilraut026@gmail.com">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">The practice is the key to success.</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <label for="idea" class="form-label" >Your idea for the success of the book.</label>
+      <div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here" id="idea" style="height:150px"></textarea>
+  <label for="floatingTextarea">Comments</label>
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Submit</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      <!--tooltip-->
+      const tooltips = document.querySelectorAll('.tt')
+      tooltips.forEach(t => {
+        new bootstrap.Tooltip(t)
+      })
+    </script>
+</body>
+</html>
